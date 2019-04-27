@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Smart Gardener</string>
+    <string name="errorUserName">Enter User Name</string>
+    <string name="errorPassword">Enter Password</string>
+    <string name="errorRetypePass">Retype Password</string>
+    <string name="errorEmail">Enter Email</string>
+    <string name="errorRFIDNUMBER">Enter Number only</string>
+    <string name="errorDate">Enter Date</string>
+    <string name="errorPlantName">Enter Name and Number</string>
+</resources>

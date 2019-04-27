@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home_Activity">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:layout_centerHorizontal="true"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="3dp"
+        app:cardUseCompatPadding="true"
+        app:cardPreventCornerOverlap="false"
+        >
+        <RelativeLayout
+            android:id="@+id/Hometop"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:id="@+id/LinearHome"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:background="@color/colorPrimary"
+                >
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:padding="10dp"
+                    android:src="@drawable/ic_home_black_24dp"
+                    android:background="@drawable/circle"
+                    android:layout_marginTop="20dp"
+                    android:tint="@color/colorWhite"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="HOME"
+                    android:textSize="22sp"
+                    android:textColor="@color/colorWhite"
+                    android:fontFamily="sans-serif-medium"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="20dp"
+                    />
+
+            </LinearLayout>
+            <ImageView
+                android:id="@+id/dummy2"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_below="@+id/LinearHome"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/square"
+                android:rotation="45"
+                android:layout_marginTop="-10dp"
+                android:layout_marginBottom="20dp"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_below="@+id/dummy2"
+                android:padding="10dp"
+
+                >
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:clipToPadding="false"
+                    android:orientation="horizontal"
+                    >
+
+                    <android.support.v7.widget.CardView
+                        android:id="@+id/information"
+                        android:layout_width="150dp"
+                        android:layout_height="170dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginLeft="5dp"
+                        app:cardCornerRadius="10dp"
+                        android:elevation="3dp"
+                        app:cardPreventCornerOverlap="false"
+                        app:cardUseCompatPadding="true"
+                        >
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:orientation="vertical"
+                            android:gravity="center"
+                            android:layout_height="match_parent"
+                            android:background="@color/colorPrimaryLight">
+
+                            <ImageView
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:src="@drawable/ic_action_info"
+                                android:background="@drawable/circle"
+                                android:padding="10dp"
+                                />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textStyle="bold"
+                                android:text="Information"
+                                android:layout_marginTop="10dp"
+                                android:textColor="@color/colorWhite"
+                                />
+                        </LinearLayout>
+                    </android.support.v7.widget.CardView>
+
+                    <android.support.v7.widget.CardView
+                        android:id="@+id/Timeinput"
+                        android:layout_width="150dp"
+                        android:layout_height="170dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginLeft="5dp"
+                        app:cardCornerRadius="10dp"
+                        android:elevation="3dp"
+                        app:cardPreventCornerOverlap="false"
+                        app:cardUseCompatPadding="true"
+                        >
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:orientation="vertical"
+                            android:gravity="center"
+                            android:layout_height="match_parent"
+                            android:background="@color/colorPrimaryLight">
+
+                            <ImageView
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:src="@drawable/ic_action_time"
+                                android:background="@drawable/circle"
+                                android:padding="10dp"
+                                />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textStyle="bold"
+                                android:text="Time Input"
+                                android:layout_marginTop="10dp"
+                                android:textColor="@color/colorWhite"
+                                />
+                        </LinearLayout>
+                    </android.support.v7.widget.CardView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:clipToPadding="false"
+                    android:orientation="horizontal"
+                    >
+                    <android.support.v7.widget.CardView
+                        android:id="@+id/Livesteam"
+                        android:layout_width="150dp"
+                        android:layout_height="170dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginLeft="5dp"
+                        app:cardCornerRadius="10dp"
+                        android:elevation="3dp"
+                        app:cardPreventCornerOverlap="false"
+                        app:cardUseCompatPadding="true"
+                        >
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@color/colorPrimaryLight"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:background="@drawable/circle"
+                                android:padding="10dp"
+                                android:src="@drawable/ic_action_livesteam" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="10dp"
+                                android:text="Live Steam"
+                                android:textColor="@color/colorWhite"
+                                android:textStyle="bold" />
+                        </LinearLayout>
+                    </android.support.v7.widget.CardView>
+
+                    <android.support.v7.widget.CardView
+                        android:id="@+id/profile"
+                        android:layout_width="150dp"
+                        android:layout_height="170dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp"
+                        app:cardCornerRadius="10dp"
+                        android:elevation="3dp"
+                        app:cardPreventCornerOverlap="false"
+                        app:cardUseCompatPadding="true"
+                        >
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:orientation="vertical"
+                            android:gravity="center"
+                            android:layout_height="match_parent"
+                            android:background="@color/colorPrimaryLight">
+
+                            <ImageView
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:src="@drawable/ic_action_profile"
+                                android:background="@drawable/circle"
+                                android:padding="10dp"
+                                />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textStyle="bold"
+                                android:text="Members"
+                                android:layout_marginTop="10dp"
+                                android:textColor="@color/colorWhite"
+                                />
+                        </LinearLayout>
+                    </android.support.v7.widget.CardView>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:clipToPadding="false"
+                    android:orientation="horizontal"
+                    >
+                    <android.support.v7.widget.CardView
+                        android:id="@+id/logout"
+                        android:layout_width="300dp"
+                        android:layout_height="150dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginLeft="5dp"
+                        app:cardCornerRadius="10dp"
+                        android:elevation="3dp"
+                        app:cardPreventCornerOverlap="false"
+                        app:cardUseCompatPadding="true"
+                        >
+                        <LinearLayout
+                            android:padding="20dp"
+                            android:layout_width="match_parent"
+                            android:orientation="vertical"
+                            android:gravity="center"
+                            android:layout_height="match_parent"
+                            android:background="@color/colorPrimaryLight">
+
+                            <ImageView
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:src="@drawable/ic_action_logout"
+                                android:background="@drawable/circle"
+                                android:padding="10dp"
+                                />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textStyle="bold"
+                                android:text="Log Out"
+                                android:layout_marginTop="10dp"
+                                android:textColor="@color/colorWhite"
+                                />
+                        </LinearLayout>
+                    </android.support.v7.widget.CardView>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+</ScrollView>
